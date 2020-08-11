@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+h2,h3,h4,h5{
+    font-family: 'Oswald', sans-serif;
+}
+
+.mg-40{
+    margin: 40px;
+}
+
+.navbar{
+    background-color: #000;
+    background-image: none;
+    min-height: 70px;
+}
+
+.navbar-default {
+    background-color: #000;
+    border-color: #000 ;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ecbc0f;
+    margin-top: 10px;
+    transition: all .25s ease-in-out;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ecbc0f;
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+    border-radius: 3px;
+}
+
+.navbar-default .navbar-nav>li>a:focus{
+    color: #ecbc0f;
+}
+
+.navbar-default .navbar-collapse{
+    border: none;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: #2d2d2d;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #2d2d2d;
+}
+
+.logo{
+    margin-top:-20px; color: #f0f0f0;
+}
+
+
+
+/*Categorias*/
+
+.nav-pills>li.active>a{
+    background-color: #000;
+    color: #ecbc0f;
+}
+
+
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+     background-color: #000;
+    color: #ecbc0f;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+#orcamento{
+    font-weight: bold;
+    background: #2d2d2d;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    padding: 7px 45px;
+    text-transform: uppercase;
+}
+
+#orcamento:hover{
+     background: #000;
+}
+
+
+.rodape {
+    padding-top: 20px;
+    background: #343434;
+    color: #fff;
+}
+
+
+.form-contato input[type="text"], .form-contato select, .form-contato input[type="email"], .form-contato textarea{width: 100% !important;}
+
+form.form-contato input,form.form-contato select{height: 50px;border-radius: 0;padding: 7px 10px; margin: 5px auto !important;}
+
+form.form-contato input[type="button"], form.form-contato input[type="submit"]{font-weight: bold; background: #2d2d2d; border: none; border-radius: 2px;color: #FFF; padding: 7px 45px;}
+form.form-contato input[type="button"]:hover, form.form-contato input[type="submit"]:hover{background: #000;}
+form.form-contato textarea{height: 150px;border-radius: 0;padding: 7px 10px; margin: 5px auto !important;}
